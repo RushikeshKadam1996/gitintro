@@ -143,6 +143,8 @@ def Audetails():
 # def viewpost():
 #     d=selectAllblog ()
 #     return render_template("viewpost.html",elist=d)
+
+# secondchanges
     
 
 if __name__=="__main__":
