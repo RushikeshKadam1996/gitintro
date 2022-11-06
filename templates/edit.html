@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Edit page</title>
+    <link rel="stylesheet" href="../static/editpost.css" />
+</head>
+<body>
+    <h1>Welcome to edit page </h1>
+    <ul>
+        <li><a href="/">Welcome Page</a><i></i>
+        <li><a href="/logina">Login Page</a><i></i>
+    </ul>
+    <center>
+        <form action="/update" method="post">
+            <fieldset>
+                <table border="1px">
+                    <tr>
+                        <td>Author Name</td>
+                        <td><input type="text" name="Author_name" value="{{elist[0]}}"></td>
+                    </tr>
+                    <tr>
+                        <td>Blog Title</td>
+                        <td><input type="text" name="Blog_title" value="{{elist[1]}}"> </td>
+                    </tr>
+                    <tr>
+                        <td>Blog</td>
+                        <td><input type="text" name="Blog" value="{{elist[2]}}"></td>
+                    </tr>
+    
+                </table>
+                <input type="submit" value="submit"></td>
+                <td><input type="reset" value="refresh">
+            </fieldset>
+        </form>
+    </center>
+    
+    <div >
+        <footer style="margin-top: 650px; background-color: rgb(210, 226, 241); color: black;">
+            <marquee behavior="scroll" direction="left">&copy 2022 All rights reserved with Rushikesh Kadam. |Privacy
+            </marquee>
+        </footer>
+    </div>
+    
+</body>
+</html>

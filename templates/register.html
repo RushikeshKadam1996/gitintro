@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>User Registration page</title>
+    <link rel="stylesheet" href="../static/registeruser.css" />
+</head>
+
+<body>
+    <h1>Welcome to User Registration page </h1>
+    <div >
+        <ul>
+            <li><a href="/">Welcome page</a><i></i>
+            <li><a href="/login">Login page</a><i></i>
+        </ul>
+    </div>
+    <center>
+        <form action="/insert" method="post">
+            <fieldset>
+                <table border="1px">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" placeholder="Enter your Name"></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td><input type="text" name="city" placeholder="Enter your City"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="email" placeholder="Enter your Email"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="password" placeholder="Enter your Password"></td>
+                    </tr>
+
+                </table>
+                <input type="submit"  value="submit">
+                <input type="reset"  value="refresh">
+            </fieldset>
+        </form>
+    </center>
+    <div >
+        <footer style="margin-top: 650px; background-color: rgb(210, 226, 241); color: black;">
+            <marquee behavior="scroll" direction="left">&copy 2022 All rights reserved with Rushikesh Kadam. |Privacy
+            </marquee>
+        </footer>
+    </div>
+</body>
+
+</html>
